@@ -2,7 +2,6 @@ import { useEffect, useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useNavigate } from "react-router-dom";
 
 // Register GSAP plugins
 gsap.registerPlugin(ScrollTrigger);
@@ -121,7 +120,6 @@ const Portfolio = () => {
 
           <div className="hidden md:block">
             <button className="glass-button inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-foreground rounded-full"
-          onClick={() => useNavigate.push('/portfolio')}
             >
               VIEW ALL
               <ArrowUpRight className="ml-2 h-4 w-4" />
