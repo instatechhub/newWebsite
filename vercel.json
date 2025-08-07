@@ -1,8 +1,7 @@
 {
-  "rootDirectory": "client",
   "builds": [
     {
-      "src": "client/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build"
     }
   ],
